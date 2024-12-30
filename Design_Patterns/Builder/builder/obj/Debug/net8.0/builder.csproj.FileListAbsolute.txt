@@ -1,0 +1,14 @@
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Builder\builder\bin\Debug\net8.0\builder.exe
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Builder\builder\bin\Debug\net8.0\builder.deps.json
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Builder\builder\bin\Debug\net8.0\builder.runtimeconfig.json
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Builder\builder\bin\Debug\net8.0\builder.dll
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Builder\builder\bin\Debug\net8.0\builder.pdb
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Builder\builder\obj\Debug\net8.0\builder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Builder\builder\obj\Debug\net8.0\builder.AssemblyInfoInputs.cache
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Builder\builder\obj\Debug\net8.0\builder.AssemblyInfo.cs
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Builder\builder\obj\Debug\net8.0\builder.csproj.CoreCompileInputs.cache
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Builder\builder\obj\Debug\net8.0\builder.dll
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Builder\builder\obj\Debug\net8.0\refint\builder.dll
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Builder\builder\obj\Debug\net8.0\builder.pdb
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Builder\builder\obj\Debug\net8.0\builder.genruntimeconfig.cache
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Builder\builder\obj\Debug\net8.0\ref\builder.dll
