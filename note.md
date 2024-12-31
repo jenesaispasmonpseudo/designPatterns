@@ -38,3 +38,18 @@
 ## Deuxieme pattern Builder ##
 
 - Le pattern Builder (ou patron de conception Constructeur) est un design pattern de création qui permet de construire des objets complexes étape par étape. Il sépare la construction de l'objet de sa représentation afin que le même processus de construction puisse créer différentes représentations.
+
+## Trosième pattern singleton ##
+
+- Le singleton est un design pattern de création qui garantit qu’une classe n’a qu’une seule instance et fournit un point d’accès global à cette instance. Il est utile pour des ressources uniques comme un logger, une configuration globale ou une connexion à une base de données
+
+## Quatrieme pattern prototype ##
+
+- Le design pattern Prototype permet de créer des copies d'objet existant sans rendre le code dépendant de leurs classe concrètes. Au lieu de crée un objet à partir de zero on clone un objet existant (le prototype) et on le modifier si besoin.
+- C'est comme faire une photocopie d'un document : on copie l'original et on peut modifier la copie 
+- L'avantage principal est la création d'objet complexes simplifiée.
+- Cas d'usage :
+    Objets avec de nombreuse configuration (editeur graphique : formes géometriques)
+    En jeux video, création d'enemies et leurs variation en grande quantité
+    Création d'une configuration par défaut dans un jeu/logiciel
+    Pour eviter la création d'objets systemes couteux : connexions réseau, ressources partagées...
