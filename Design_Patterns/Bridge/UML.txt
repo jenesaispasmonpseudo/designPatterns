@@ -1,0 +1,25 @@
+Abstraction (Hiérarchie 1)                            Implémentation (Hiérarchie 2)
++----------------------------------+                   +-----------------------------------------+
+|     FormulaireImmatriculation    |                   |      IFormulaireImplementation         |
+| (Classe Abstraite)               |                   +-----------------------------------------+
++----------------------------------+                   | + AfficheMessage(string message)       |
+| + _implementation: IFormulaire   |                   | + ValideFormulaire()                   |
+| + Affiche()                      |                   +-----------------------------------------+
+| + Valide()                       |                           ^
++----------------------------------+                           |
+          ^                                                    |
+          |                                                    |
++----------------------------------+      +-------------------------------------------+
+| FormulaireImmatriculationFrance  |      | FormulaireImplementationHTML              |
++----------------------------------+      +-------------------------------------------+
+| + Affiche()                      |      | + AfficheMessage()                        |
+| + Valide()                       |      | + ValideFormulaire()                      |
++----------------------------------+      +-------------------------------------------+
+                                          |
+                                          |
+                                          +-------------------------------------------+
+                                          | FormulaireImplementationApplet            |
+                                          +-------------------------------------------+
+                                          | + AfficheMessage()                        |
+                                          | + ValideFormulaire()                      |
+                                          +-------------------------------------------+

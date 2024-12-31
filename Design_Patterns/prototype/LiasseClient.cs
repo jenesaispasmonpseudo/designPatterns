@@ -3,10 +3,11 @@ using System.Collections.Generic;
 
 public class LiasseClient : Liasse
 {
+  // constructeur de la classe
   public LiasseClient(string informations)
   {
     documents = new List<Document>();
-    LiasseVierge laLiasseVierge = LiasseVierge.Instance();
+    LiasseVierge laLiasseVierge = LiasseVierge.Instance(); 
     IList<Document> documentsVierges =
       laLiasseVierge.documents;
     foreach (Document document in documentsVierges)

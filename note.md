@@ -53,3 +53,13 @@
     En jeux video, création d'enemies et leurs variation en grande quantité
     Création d'une configuration par défaut dans un jeu/logiciel
     Pour eviter la création d'objets systemes couteux : connexions réseau, ressources partagées...
+
+## Cinquieme pattern Adapter ##
+
+- Convertir l'interface d'une classe existante en une interface attendue par ses client (afin qu'il puisse travailler ensemble)
+- Autrement dit c'est fournir une nouvelle interfaces pour repondre aux besoins de clients
+
+## Sixieme pattern Bridge ##
+
+- Separer l'aspect d'implementation d'un objet de son aspect representation et d'interface
+- Il separe uen gross class en deux partie qui peuvent etre developpé independamment
