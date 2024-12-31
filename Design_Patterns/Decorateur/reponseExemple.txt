@@ -1,0 +1,13 @@
+ICafe : interface de base que tous les cafésdoivent implémenter. Elle définit deux méthodes :
+    GetCost() : Retourne le coût du café.
+    GetDescription() : Retourne la description du café.
+
+CafeSimple : C'est l'implémentation de base de ICafe, représentant un café simple, avec un coût de 2.0€ et une description "Café simple".
+
+CafeDecorator : C'est une classe abstraite qui implémente ICafe. 
+Elle contient une référence à un objet ICafe (un café) et délègue l'appel des méthodes à cet objet tout en permettant d'ajouter des comportements supplémentaires.
+
+Lait et Sucre : Ce sont des décorateurs concrets qui héritent de CafeDecorator. 
+Chaque décorateur modifie le coût et la description en ajoutant des éléments spécifiques.
+
+Donc on peux décorer le café avec du lait et du sucre en créant un café de base, puis en utilisant des décorateurs pour ajouter le lait et le sucre, chacun modifiant le prix et la description de la boisson.
