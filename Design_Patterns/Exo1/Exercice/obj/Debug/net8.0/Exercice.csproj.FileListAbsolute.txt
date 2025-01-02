@@ -1,0 +1,15 @@
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Exo1\Exercice\bin\Debug\net8.0\Exercice.exe
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Exo1\Exercice\bin\Debug\net8.0\Exercice.deps.json
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Exo1\Exercice\bin\Debug\net8.0\Exercice.runtimeconfig.json
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Exo1\Exercice\bin\Debug\net8.0\Exercice.dll
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Exo1\Exercice\bin\Debug\net8.0\Exercice.pdb
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Exo1\Exercice\obj\Debug\net8.0\Exercice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Exo1\Exercice\obj\Debug\net8.0\Exercice.AssemblyInfoInputs.cache
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Exo1\Exercice\obj\Debug\net8.0\Exercice.AssemblyInfo.cs
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Exo1\Exercice\obj\Debug\net8.0\Exercice.csproj.CoreCompileInputs.cache
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Exo1\Exercice\obj\Debug\net8.0\Exercice.sourcelink.json
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Exo1\Exercice\obj\Debug\net8.0\Exercice.dll
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Exo1\Exercice\obj\Debug\net8.0\refint\Exercice.dll
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Exo1\Exercice\obj\Debug\net8.0\Exercice.pdb
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Exo1\Exercice\obj\Debug\net8.0\Exercice.genruntimeconfig.cache
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\Exo1\Exercice\obj\Debug\net8.0\ref\Exercice.dll
