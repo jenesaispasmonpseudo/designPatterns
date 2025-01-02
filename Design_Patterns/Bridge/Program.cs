@@ -1,104 +1,144 @@
-﻿// Interface représentant l'implémentation des formulaires
-public interface IFormulaireImplementation
+﻿using System;
+
+namespace FormulaireApplication
 {
-    void AfficheMessage(string message);
-    void ValideFormulaire();
-}
-
-// Implémentation HTML
-public class FormulaireImplementationHTML : IFormulaireImplementation
-{
-    public void AfficheMessage(string message)
+    // Interface représentant l'implémentation des formulaires
+    public interface IFormulaireImplementation
     {
-        Console.WriteLine($"HTML: {message}");
+        void AfficherMessage(string message);
+        void ValiderFormulaire();
     }
 
-    public void ValideFormulaire()
+    // Implémentation HTML
+    public class FormulaireImplementationHTML : IFormulaireImplementation
     {
-        Console.WriteLine("Validation du formulaire HTML.");
-    }
-}
+        public void AfficherMessage(string message)
+        {
+            Console.WriteLine($"HTML: {message}");
+        }
 
-// Implémentation Applet
-public class FormulaireImplementationApplet : IFormulaireImplementation
-{
-    public void AfficheMessage(string message)
-    {
-        Console.WriteLine($"Applet: {message}");
-    }
-
-    public void ValideFormulaire()
-    {
-        Console.WriteLine("Validation du formulaire Applet.");
-    }
-}
-
-// Classe abstraite représentant les formulaires
-public abstract class FormulaireImmatriculation
-{
-    protected IFormulaireImplementation _implementation;
-
-    protected FormulaireImmatriculation(IFormulaireImplementation implementation)
-    {
-        _implementation = implementation;
+        public void ValiderFormulaire()
+        {
+            Console.WriteLine("Validation du formulaire HTML.");
+        }
     }
 
-    public abstract void Affiche();
-    public abstract void Valide();
-}
-
-// Formulaire pour la France
-public class FormulaireImmatriculationFrance : FormulaireImmatriculation
-{
-    public FormulaireImmatriculationFrance(IFormulaireImplementation implementation) 
-        : base(implementation) { }
-
-    public override void Affiche()
+    // Implémentation Applet
+    public class FormulaireImplementationApplet : IFormulaireImplementation
     {
-        _implementation.AfficheMessage("Formulaire d'immatriculation pour la France.");
+        public void AfficherMessage(string message)
+        {
+            Console.WriteLine($"Applet: {message}");
+        }
+
+        public void ValiderFormulaire()
+        {
+            Console.WriteLine("Validation du formulaire Applet.");
+        }
     }
 
-    public override void Valide()
+    // Classe abstraite représentant les formulaires
+    public abstract class FormulaireImmatriculation
     {
-        _implementation.ValideFormulaire();
-    }
-}
+        protected readonly IFormulaireImplementation _implementation;
 
-// Formulaire pour le Luxembourg
-public class FormulaireImmatriculationLux : FormulaireImmatriculation
-{
-    public FormulaireImmatriculationLux(IFormulaireImplementation implementation) 
-        : base(implementation) { }
+        protected FormulaireImmatriculation(IFormulaireImplementation implementation)
+        {
+            _implementation = implementation ?? throw new ArgumentNullException(nameof(implementation));
+        }
 
-    public override void Affiche()
-    {
-        _implementation.AfficheMessage("Formulaire d'immatriculation pour le Luxembourg.");
+        public abstract void Afficher();
+        public abstract void Valider();
+        public abstract bool ControleSaisie(string saisie); // Méthode abstraite pour le contrôle de saisie
     }
 
-    public override void Valide()
+    // Formulaire pour la France
+    public class FormulaireImmatriculationFrance : FormulaireImmatriculation
     {
-        _implementation.ValideFormulaire();
+        public FormulaireImmatriculationFrance(IFormulaireImplementation implementation) 
+            : base(implementation) { }
+
+        public override void Afficher()
+        {
+            _implementation.AfficherMessage("Formulaire d'immatriculation pour la France.");
+        }
+
+        public override void Valider()
+        {
+            if (ControleSaisie("Exemple"))
+            {
+                _implementation.ValiderFormulaire();
+            }
+            else
+            {
+                _implementation.AfficherMessage("Erreur : Saisie invalide pour la France.");
+            }
+        }
+
+        public override bool ControleSaisie(string saisie)
+        {
+            // Exemple de contrôle simple : au moins 6 caractères
+            return !string.IsNullOrEmpty(saisie) && saisie.Length > 5;
+        }
     }
-}
 
-class Program
-{
-    static void Main(string[] args)
+    // Formulaire pour le Luxembourg
+    public class FormulaireImmatriculationLux : FormulaireImmatriculation
     {
-        // Utilisation du formulaire HTML pour la France
-        IFormulaireImplementation htmlImpl = new FormulaireImplementationHTML();
-        FormulaireImmatriculation formulaireFrance = new FormulaireImmatriculationFrance(htmlImpl);
+        public FormulaireImmatriculationLux(IFormulaireImplementation implementation) 
+            : base(implementation) { }
 
-        formulaireFrance.Affiche();
-        formulaireFrance.Valide();
+        public override void Afficher()
+        {
+            _implementation.AfficherMessage("Formulaire d'immatriculation pour le Luxembourg.");
+        }
 
-        Console.WriteLine();
+        public override void Valider()
+        {
+            if (ControleSaisie("LU-123"))
+            {
+                _implementation.ValiderFormulaire();
+            }
+            else
+            {
+                _implementation.AfficherMessage("Erreur : Saisie invalide pour le Luxembourg.");
+            }
+        }
 
-        // Utilisation du formulaire Applet pour le Luxembourg
-        IFormulaireImplementation appletImpl = new FormulaireImplementationApplet();
-        FormulaireImmatriculation formulaireLux = new FormulaireImmatriculationLux(appletImpl);
+        public override bool ControleSaisie(string saisie)
+        {
+            // Exemple de contrôle simple : doit commencer par "LU"
+            return !string.IsNullOrEmpty(saisie) && saisie.StartsWith("LU");
+        }
+    }
 
-        formulaireLux.Affiche();
-        formulaireLux.Valide();
+    // Programme principal
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                // Utilisation du formulaire HTML pour la France
+                IFormulaireImplementation htmlImpl = new FormulaireImplementationHTML();
+                FormulaireImmatriculation formulaireFrance = new FormulaireImmatriculationFrance(htmlImpl);
+
+                formulaireFrance.Afficher();
+                formulaireFrance.Valider();
+
+                Console.WriteLine();
+
+                // Utilisation du formulaire Applet pour le Luxembourg
+                IFormulaireImplementation appletImpl = new FormulaireImplementationApplet();
+                FormulaireImmatriculation formulaireLux = new FormulaireImmatriculationLux(appletImpl);
+
+                formulaireLux.Afficher();
+                formulaireLux.Valider();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erreur : {ex.Message}");
+            }
+        }
     }
 }
