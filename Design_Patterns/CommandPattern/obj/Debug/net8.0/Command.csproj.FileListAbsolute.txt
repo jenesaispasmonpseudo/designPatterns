@@ -1,0 +1,15 @@
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\CommandPattern\obj\Debug\net8.0\Command.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\CommandPattern\obj\Debug\net8.0\Command.AssemblyInfoInputs.cache
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\CommandPattern\obj\Debug\net8.0\Command.AssemblyInfo.cs
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\CommandPattern\obj\Debug\net8.0\Command.csproj.CoreCompileInputs.cache
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\CommandPattern\obj\Debug\net8.0\Command.sourcelink.json
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\CommandPattern\bin\Debug\net8.0\Command.exe
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\CommandPattern\bin\Debug\net8.0\Command.deps.json
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\CommandPattern\bin\Debug\net8.0\Command.runtimeconfig.json
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\CommandPattern\bin\Debug\net8.0\Command.dll
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\CommandPattern\bin\Debug\net8.0\Command.pdb
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\CommandPattern\obj\Debug\net8.0\Command.dll
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\CommandPattern\obj\Debug\net8.0\refint\Command.dll
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\CommandPattern\obj\Debug\net8.0\Command.pdb
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\CommandPattern\obj\Debug\net8.0\Command.genruntimeconfig.cache
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\CommandPattern\obj\Debug\net8.0\ref\Command.dll

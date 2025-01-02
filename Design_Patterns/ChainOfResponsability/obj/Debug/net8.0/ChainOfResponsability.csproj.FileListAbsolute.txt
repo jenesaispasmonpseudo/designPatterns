@@ -1,0 +1,15 @@
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\ChainOfResponsability\bin\Debug\net8.0\ChainOfResponsability.exe
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\ChainOfResponsability\bin\Debug\net8.0\ChainOfResponsability.deps.json
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\ChainOfResponsability\bin\Debug\net8.0\ChainOfResponsability.runtimeconfig.json
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\ChainOfResponsability\bin\Debug\net8.0\ChainOfResponsability.dll
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\ChainOfResponsability\bin\Debug\net8.0\ChainOfResponsability.pdb
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\ChainOfResponsability\obj\Debug\net8.0\ChainOfResponsability.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\ChainOfResponsability\obj\Debug\net8.0\ChainOfResponsability.AssemblyInfoInputs.cache
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\ChainOfResponsability\obj\Debug\net8.0\ChainOfResponsability.AssemblyInfo.cs
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\ChainOfResponsability\obj\Debug\net8.0\ChainOfResponsability.csproj.CoreCompileInputs.cache
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\ChainOfResponsability\obj\Debug\net8.0\ChainOfResponsability.sourcelink.json
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\ChainOfResponsability\obj\Debug\net8.0\ChainOfResponsability.dll
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\ChainOfResponsability\obj\Debug\net8.0\refint\ChainOfResponsability.dll
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\ChainOfResponsability\obj\Debug\net8.0\ChainOfResponsability.pdb
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\ChainOfResponsability\obj\Debug\net8.0\ChainOfResponsability.genruntimeconfig.cache
+C:\Users\nambo\Documents\ESIisitech\Design paterns\Design_Patterns\ChainOfResponsability\obj\Debug\net8.0\ref\ChainOfResponsability.dll

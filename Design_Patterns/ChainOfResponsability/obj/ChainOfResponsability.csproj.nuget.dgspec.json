@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nambo\\Documents\\ESIisitech\\Design paterns\\Design_Patterns\\ChainOfResponsability\\ChainOfResponsability.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nambo\\Documents\\ESIisitech\\Design paterns\\Design_Patterns\\ChainOfResponsability\\ChainOfResponsability.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nambo\\Documents\\ESIisitech\\Design paterns\\Design_Patterns\\ChainOfResponsability\\ChainOfResponsability.csproj",
+        "projectName": "ChainOfResponsability",
+        "projectPath": "C:\\Users\\nambo\\Documents\\ESIisitech\\Design paterns\\Design_Patterns\\ChainOfResponsability\\ChainOfResponsability.csproj",
+        "packagesPath": "C:\\Users\\nambo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nambo\\Documents\\ESIisitech\\Design paterns\\Design_Patterns\\ChainOfResponsability\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nambo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.111/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

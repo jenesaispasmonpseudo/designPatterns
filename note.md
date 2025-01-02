@@ -62,4 +62,16 @@
 ## Sixieme pattern Bridge ##
 
 - Separer l'aspect d'implementation d'un objet de son aspect representation et d'interface
-- Il separe uen gross class en deux partie qui peuvent etre developpé independamment
+- Il separe uen gross class en deux partie qui peuvent etre developpé independammenta
+
+# Les patternes de comportement #
+
+- Fournir des solutions pour distribuer les traitements et les algortihmees entre les objets.
+
+## Pattern Chain of Responsability ##
+
+- une chaine d'objets doit gerer une requête selon un ordre défini dynamiquement
+- La facon dont une chaine d'objet gère une reqête ne doit pas etre connu par ses clients
+
+## Pattern Commande ##
+command permet de transformer une requête en un objet, ce qui facilites les operation comme annulations ou les retours en arriere, ou encore les mises en file d'attente des demandes et leurs suivi
